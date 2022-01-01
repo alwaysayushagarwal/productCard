@@ -1,0 +1,43 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+
+}
+
+body{
+    color: #2b2c48;  
+    font-family: "Jost", sans-serif;  
+    background-image: url(https://images.unsplash.com/photo-1566738780863-f9608f88f3a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80);  
+    background-repeat: no-repeat;  
+    background-size: cover;  
+    background-position: center;  
+    background-attachment: fixed;  
+    min-height: 100vh;  
+    display: flex;  
+    flex-wrap: wrap;  
+    padding: 20px;  
+}
+
+.card{
+    max-width: 340px;  
+    margin: auto;  
+    overflow-y: auto;  
+    position: relative;  
+    z-index: 1;  
+    overflow-x: hidden;  
+    background-color: rgba(255, 255, 255, 1);  
+    display: flex;  
+    transition: 0.3s;  
+    flex-direction: column;  
+    border-radius: 10px;  
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);  
+
+}
+
+.card img{
+    transform: none;  
+    left: 20px;  
+    width: 50px;  
+    height: 50px;  
+    bottom: 10px;  
+}
+
